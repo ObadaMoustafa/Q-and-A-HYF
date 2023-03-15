@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherForecast</title>
+    <script
+      src="https://kit.fontawesome.com/88489fe889.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="background">
+    <div class="container">
+      <h1>Weather Forecast</h1>
+      <i class="fa-solid fa-cloud-sun"></i>
+      <i class="fa-solid fa-cloud"></i>
+      <i class="fa-solid fa-cloud-rain"></i>
+      <i class="fa-solid fa-cloud-bolt"></i>
+      <i class="fa-solid fa-smog"></i>
+      <i class="fa-solid fa-tornado"></i>
+      <i class="fa-solid fa-snowflake"></i>
+      <form>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="input-group">
+              <input
+                type="search"
+                value="Country, city"
+                id="form1"
+                class="form-control"
+              />
+              <button type="button" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col">
+          <h2 id="location-name">The Netherlands, city</h2>
+          <ul>
+            <li id="current-time"></li>
+          </ul>
+          <div class="col">
+            <img
+              src="images/rain.jpg"
+              alt="weather icon"
+              width="500px"
+              class="logo"
+              id="weather-icon"
+            />
+          </div>
+        </div>
+        <h3><i class="fa-solid fa-cloud-rain"></i> 14°C/ 57°F</h3>
+        <ul>
+          <li>Humidity 28%</li>
+          <li>Wind 21 km/h</li>
+        </ul>
+        <div class="row">
+          <div class="col-sm-1">06:00</div>
+          <div class="col-1">09:00</div>
+          <div class="col-1">12:00</div>
+          <div class="col-1">15:00</div>
+          <div class="col-1">18:00</div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <i class="fa-solid fa-cloud-bolt"></i>
+          </div>
+          <div class="col-1"><i class="fa-solid fa-tornado"></i></div>
+          <div class="col-1"><i class="fa-solid fa-cloud"></i></div>
+          <div class="col-1"><i class="fa-solid fa-cloud-rain"></i></div>
+          <div class="col-1"><i class="fa-solid fa-cloud-sun"></i></div>
+        </div>
+        <div class="row">
+          <div class="col-1">12°C</div>
+          <div class="col-1">15°C</div>
+          <div class="col-1">17°C</div>
+          <div class="col-1">16°C</div>
+          <div class="col-1">14°C</div>
+        </div>
+      </div>
+    </div>
+    <script src="Yuliia.js"></script>
+  </body>
+</html>
